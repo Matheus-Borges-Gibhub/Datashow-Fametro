@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Untitled</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reserva de Datashow</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Reserva de Datashow</h1>
+    <nav>
+      <a href="#">Início</a>
+      <a href="#">Reservar</a>
+      <a href="#">Contato</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="intro">
+      <h2>Bem-vindo ao sistema de reservas</h2>
+      <p>Facilite sua marcação de Datashow de forma rápida e online.</p>
+    </section>
+
+    <section class="form-section">
+      <h2>Marque seu horário</h2>
+      <form id="reservaForm">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="data">Data:</label>
+        <input type="date" id="data" name="data" required>
+
+        <label for="hora">Hora:</label>
+        <input type="time" id="hora" name="hora" required>
+
+        <button type="submit">Reservar</button>
+      </form>
+    </section>
+
+    <section class="lista">
+      <h2>Reservas feitas</h2>
+      <ul id="listaReservas"></ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Sistema de Reserva de Datashow</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
